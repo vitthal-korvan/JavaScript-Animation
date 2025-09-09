@@ -1,0 +1,46 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: gilroy;
+}
+
+html,
+body {
+      height: 100%;
+      width: 100%;
+}
+
+.page1{
+      height: 100vh;
+      width: 100%;
+      background-color: beige;
+}
+
+.page2 {
+      height: 100vh;
+      width: 100%;
+      background-color: rgb(184, 184, 135);
+}
+.img-main{
+      height: 100%;
+      width: 35%;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: crimson;
+      /* overflow: hidden; */
+}
+
+.img-main img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      /* scale: 1.4; */
+}
+
+.page3 {
+      height: 100vh;
+      width: 100%;
+      background-color: rgb(138, 138, 69);
+}
